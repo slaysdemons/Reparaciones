@@ -44,7 +44,6 @@ Partial Class Form1
         Me.Label11 = New System.Windows.Forms.Label()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -283,15 +282,6 @@ Partial Class Form1
         Me.Label12.TabIndex = 0
         Me.Label12.Text = "Modelo :"
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(600, 621)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(105, 36)
-        Me.Button3.TabIndex = 9
-        Me.Button3.Text = "Cerrar"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'ListBox1
         '
         Me.ListBox1.BackColor = System.Drawing.Color.Azure
@@ -383,7 +373,6 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.ListBox1)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox1)
@@ -423,7 +412,6 @@ Partial Class Form1
     Friend WithEvents Label12 As Label
     Friend WithEvents Button5 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button3 As Button
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents Button2 As Button
     Friend WithEvents TextBox2 As TextBox
