@@ -183,7 +183,7 @@ Partial Class registro_de_clientes
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Times New Roman", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(600, 391)
+        Me.Button2.Location = New System.Drawing.Point(597, 391)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(99, 35)
         Me.Button2.TabIndex = 13
