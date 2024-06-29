@@ -83,7 +83,15 @@
     <Compile Include="Frminicio.Designer.vb">
       <DependentUpon>Frminicio.vb</DependentUpon>
     </Compile>
-    <Compile Include="Frminicio.vb" />
+    <Compile Include="Frminicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmsesion.Designer.vb">
+      <DependentUpon>Frmsesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmsesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -119,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frminicio.resx">
       <DependentUpon>Frminicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmsesion.resx">
+      <DependentUpon>Frmsesion.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
