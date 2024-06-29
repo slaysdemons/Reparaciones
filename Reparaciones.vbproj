@@ -86,6 +86,12 @@
     <Compile Include="Frminicio.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Frmmenu.Designer.vb">
+      <DependentUpon>Frmmenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frmsesion.Designer.vb">
       <DependentUpon>Frmsesion.vb</DependentUpon>
     </Compile>
@@ -128,6 +134,9 @@
     <EmbeddedResource Include="Frminicio.resx">
       <DependentUpon>Frminicio.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frmmenu.resx">
+      <DependentUpon>Frmmenu.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frmsesion.resx">
       <DependentUpon>Frmsesion.vb</DependentUpon>
     </EmbeddedResource>
@@ -161,6 +170,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas del dia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\devolucion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1489186740-constructgearoptimizerepairsetting_81823.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
